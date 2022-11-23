@@ -1,0 +1,75 @@
+
+#SW02-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.SW02-01 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.SW02-01-box {
+   display: flex;
+   flex-direction: column;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 5%;
+   padding: 20px;
+   padding-top: auto;
+   padding-bottom: auto;
+   width: 600px;
+   height: 280px;
+   background-color: rgba(255,255,255,0.9);
+}
+
+.SW02-01-tag {
+  font-size: 0.7rem;
+  color:#155752;
+  background-color: #91E3DD;
+  padding: 5px 10px 3px 10px;
+  border-radius: 100px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-bottom: 10px;
+  word-spacing: 3px;
+}
+
+.SW02-01-title {
+font-size: 3rem;
+font-weight: bolder;
+margin-bottom: 15px;
+margin-top: 5px;
+line-height: 3.2rem;
+}
+
+.SW02-01-subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  color: rgba(0,0,0,0.8);
+}
+
+.SW02-01-box a {
+  text-align: center;
+  padding-top: auto;
+  padding: 8px 15px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.SW02-01-box a:hover {
+  text-decoration: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,67 @@
+#SW05-01 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 5%;
+    background-color: #000;
+}
+
+.SW05-01-tag {
+    font-size: 0.7rem;
+    color:#155752;
+    background-color: #91E3DD;
+    padding: 5px 10px 3px 10px;
+    border-radius: 100px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-bottom: 10px;
+    word-spacing: 3px;
+}
+
+.SW05-01-title {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    line-height: 3.2rem;
+    color: #fff;
+}
+
+.SW05-01-steps {
+    display: flex;
+}
+
+.SW05-01-steps-count {
+    color: rgba(255,255,255,0.15);
+    font-size: 12rem;
+    font-weight: bolder;
+}
+
+.SW05-01-steps-title {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.SW05-01-steps-subtitle {
+    color: #7F7F7F;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.SW05-01-steps-box {
+    margin-right: 20px;
+    width: 100%;    
+}
+
+.SW05-01-steps-subbox {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    width: 250px;
+}
+
+.SW05-01-steps-subbox img {
+    width: 55px;
+    height: 55px;
+}

@@ -1,0 +1,134 @@
+#SW06-01 {
+  padding: 60px 10%;
+  background-color: rgb(248, 248, 248);
+}
+
+.SW06-01 {
+  max-width: 550px;
+  margin: 0 25%;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow:  3px 3px 8px rgba(0, 0, 0, 0.2),
+             -3px -3px 8px #ffffff;
+}
+
+.SW06-01-title {
+  color: #7C7C7C;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: rgb(44,63,78);
+  font-weight: bold;
+}
+.SW06-01 > p {
+  margin-top: 0;
+  letter-spacing: 3px;
+  color: rgb(154,170,180);
+  font-size: 1.4rem;
+}
+.SW06-01 > form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 40px;
+}
+.SW06-01 > form > * {
+  margin-bottom: 20px;
+  background-color: rgb(248, 248, 248);
+  /* background-color: rgb(242, 244, 249); */
+
+  /* box-sizing: border-box; */
+}
+.SW06-01 > form > input, .SW06-01 > form > select, .SW06-01 > form > textarea  {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* background: rgb(242, 244, 249); */
+  background-color: rgb(248, 248, 248);
+
+  box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.1),
+              inset -3px -3px 4px #ffffff;
+  font-size: 1rem;
+
+}
+.SW06-01-name {
+  width: 100%;
+  /* margin-right: 6%; */
+}
+.SW06-01-email {
+  width: 100%;
+}
+.SW06-01-select {
+  width: 10%;
+  margin-right: 6%;
+  /* padding-right: 10px !important; */
+}
+.SW06-01-countrycode {
+  width: 10%;
+  margin-top: 5px;
+  color: #7C7C7C;
+}
+.SW06-01-phone {
+  width: 100%;
+}
+.SW06-01-textarea {
+  width: 100%;
+}
+.SW06-01-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.SW06-01-btn button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  padding: 10px 15px;
+  box-shadow:  3px 3px 6px rgba(0, 0, 0, 0.1),
+             -3px -3px 4px #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+  color:  rgb(242, 244, 249);
+  background: #000;
+  
+  /* background-image: linear-gradient(to right, rgb(14,44,172), rgb(81,210,98)); */
+  
+
+}
+.SW06-01-btn a:hover {
+  color:  rgb(242, 244, 249);
+}
+
+
+.SW06-01-btn button:hover{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4),
+             -2px -2px 4px #ffffff;
+}
+
+
+@media (max-width:576px) {
+  #SW06-01 {
+    padding: 40px 5%;
+  }
+  .SW06-01 {
+    margin: 0 ;
+  }
+  .SW06-01-phone {
+    width: 100%;
+    /* margin-left: 5%; */
+  }
+  .SW06-01 > h2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+  }
+  .SW06-01 > p  {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  .SW06-01-btn button {
+    font-size: 0.8rem;
+  }
+}

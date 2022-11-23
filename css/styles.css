@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-255');
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hflex {
+    display: flex;
+}
+
+.vflex {
+    display: flex;
+    flex-direction: column;
+}

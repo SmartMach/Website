@@ -1,0 +1,110 @@
+#SW03-01 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 40px 5%;
+    margin-bottom: 20px;
+}
+
+
+.SW03-01-main-img {
+    margin: 20px;
+    margin-left: 0;
+}
+
+.SW03-01-main-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    padding-right: 0;
+    margin-left: 5%;
+    margin-bottom: auto;
+    padding-right: auto;
+}
+
+.SW03-01-tag {
+    font-size: 0.7rem;
+    color:#fff;
+    background-color: #003A7A;
+    padding: 5px 10px 3px 10px;
+    border-radius: 100px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-bottom: 10px;
+    word-spacing: 3px;
+}
+
+.SW03-01-title {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: auto;
+    line-height: 3.2rem;
+}
+
+.SW03-01-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.6);
+}
+
+.SW03-01-feature-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.SW03-01-feature-list {
+    font-size: 16px;
+}
+
+.SW03-01-feature-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.SW03-01-feature-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.SW03-01-sec-btn {
+    text-align: center;
+    padding: 3px 0;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2.5px solid rgba(217,217,217,0.5);
+    font-weight: 600;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.SW03-01-sec-btn:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid rgba(0,0,0,0.5);
+    transition: border-bottom 0.5s ease-in-out;
+    color: #000;
+}
+
+.SW03-01-sec-btn:not(:hover) {
+    transition: border-bottom 0.5s ease-in-out;
+}
+
+.SW03-01-sec-btn-img {
+    margin-left: 3px;
+}
+
+.SW03-01-sec-btn:hover .SW03-01-sec-btn-img {
+    transform: translateX(3px);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.SW03-01-sec-btn:not(:hover) .SW03-01-sec-btn-img {
+    transition: transform 0.5s ease-in-out;
+}
